@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndonesiaActivity"
+    android:background="#49c5cc"
+    android:padding="15dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txtPilihJurusan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan Pilih Jurusan"
+        android:textSize="20sp"
+        android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:layout_below="@+id/txtPilihJurusan"
+        android:id="@+id/btnIT"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_button"
+        android:layout_marginBottom="15dp"
+        android:text="Jurusan IT"/>
+
+    <Button
+        android:id="@+id/btnKedokteran"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/btnIT"
+        android:background="@drawable/bg_button"
+        android:text="Fakultas Kedokteran"/>
+
+    <Button
+        android:id="@+id/btnTeknik"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnKedokteran"
+        android:background="@drawable/bg_button"
+        android:text="Jurusan Teknik"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnBisnis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/btnTeknik"
+        android:background="@drawable/bg_button"
+        android:text="Jurusan Bisnis"/>
+
+</RelativeLayout>
